@@ -1,0 +1,21 @@
+.main{
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.main__close{
+    position: fixed;
+    color: white;
+    text-transform: uppercase;
+    user-select: none;
+    font-size: 12px;
+    width: 100px;
+    right: 30px;
+    top: 80%;
+    background-color: lightseagreen;
+    padding: 5px;
+    outline: none; border: none; cursor: pointer;
+}
+.main__close:active{
+    background-color: orange;
+}

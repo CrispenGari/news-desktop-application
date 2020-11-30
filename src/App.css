@@ -1,0 +1,16 @@
+body {
+  --body-color: #25282A;
+  background: var(--body-color);
+  overflow-y: hidden;
+  overflow-y: hidden;
+}
+body::-webkit-scrollbar {
+  display: none;
+}
+h1 {
+  color: white;
+}
+.app {
+  width: 100vw;
+  height: 100vh;
+}

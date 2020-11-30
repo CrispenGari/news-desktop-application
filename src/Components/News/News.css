@@ -1,0 +1,42 @@
+.news{
+     overflow-x: hidden;
+     overflow-y: scroll;
+     background-color: #fafafa; 
+     width: 98vw;
+     margin: auto !important;
+     height: 80vh;
+     padding-bottom: 30px;
+}
+.news>h1{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-weight: 500;
+    color: lightseagreen;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    background: inherit;
+    z-index: 3;
+    width: 100%;
+}
+.news__container{
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.news::-webkit-scrollbar {
+  width: 9px;
+ 
+}
+
+ .news::-webkit-scrollbar-track {
+  background: #f1f1f1;
+} 
+.news::-webkit-scrollbar-thumb {
+  background: var(--body-color);
+   border-radius: 999px;
+}  .news::-webkit-scrollbar-thumb:hover {
+  background: lightseagreen;
+} 
