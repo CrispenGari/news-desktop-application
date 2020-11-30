@@ -11,12 +11,12 @@ This is just a simple `electron-react-desktop-application` for news articles. Th
 - able to get real time news articles.
 - able to switch to different tabs by selecting it from a nav bar and get news for that category.
 - example of available categories are:
-  ** Arts
-  ** Automobiles
-  ** Autos
-  ** Blogs
-  ** Books
-  ** etc
+  * Arts
+  * Automobiles
+  * Autos
+  * Blogs
+  * Books
+  * etc
 
 ## Main technologies used for this application
 
